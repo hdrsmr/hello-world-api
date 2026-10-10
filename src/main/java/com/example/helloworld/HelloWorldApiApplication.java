@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HelloWorldApiApplication {
 
+	//hallo dari kamu
+
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApiApplication.class, args);
 	}
