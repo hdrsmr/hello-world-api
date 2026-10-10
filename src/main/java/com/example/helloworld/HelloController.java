@@ -8,12 +8,12 @@ public class HelloController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello World! 🌍";
+        return "Hello World! 🌍----->>";  
     }
 
     @GetMapping("/api/hello/json")
     public Message helloJson() {
-        return new Message("Hello World! 🌍", "Sora", "2026-09-20");
+        return new Message("Hexacascascsallo World! 🌍", "Sora", "2026-09-20");
     }
 
     public static class Message {
